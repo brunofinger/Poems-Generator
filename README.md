@@ -34,8 +34,5 @@ This code generates a poem given a file with a collection of sentences and a sta
 To use this code, you need to provide a file path with a collection of sentences, a starting word, and optionally, the number of lines in the poem. 
 You can run the code in the command line by providing these arguments with flags `-f`, `-w`, and `-n`.
 
-    python poem_generator.py\
-	    --file allan_poems_sentences.csv\
-		--word love\
-		--n_lines 4
+    python poem_generator.py -f allan_poems_sentences.csv -w love -n_lines 4
 
